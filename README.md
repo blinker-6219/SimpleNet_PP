@@ -103,42 +103,6 @@ python scripts/aggregate.py runs/repvit runs/resnet18
 python scripts/benchmark.py repvit 224
 ```
 
-## 🏆 Results
-Fill this table from **your own runs** (`aggregate.py` / `benchmark.py`).
-
-| Method | Backbone | I-AUROC (%) | P-AUROC (%) | PRO (%) | Params (M) | FPS |
-|---|---|---|---|---|---|---|
-| SimpleNet (baseline) | ResNet-18 | _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| MobileViT-SimpleNet | MobileViT-S | _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| RepViT-SimpleNet | RepViT | _TBD_ | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-
-**Category-wise I-AUROC:** _TBD_ (paste table or link to `runs/*/seed*.json`).
-**Hardware:** _GPU model, driver, PyTorch version_ · **Input size:** _288 train / 224 FPS_
-
-## 📈 Training Curves
-> 📉 **[PLACEHOLDER: training loss vs. meta-epoch]**
-> `![Loss](assets/curves/loss_repvit.png)`
-
-> 📉 **[PLACEHOLDER: I-AUROC / P-AUROC vs. meta-epoch]**
-> `![Metrics](assets/curves/metrics_repvit.png)`
-
-> 📉 **[PLACEHOLDER: RepViT vs MobileViT vs ResNet-18 loss comparison]**
-> `![Compare](assets/curves/compare_backbones.png)`
-
-## 🖼️ Qualitative Results
-Suggested layout: input | ground-truth mask | anomaly heatmap | overlay.
-
-| Category | Test image | Ground truth | Anomaly map | Overlay |
-|---|---|---|---|---|
-| Bottle | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ |
-| Capsule | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ |
-| Screw | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ |
-| Wood | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ | 🖼️ _[placeholder]_ |
-
-> Save images to `assets/qualitative/<category>_{img,gt,map,overlay}.png` and replace each cell with `![](assets/qualitative/bottle_img.png)`.
-
-**Failure cases:** 🖼️ _[placeholder: 2–3 missed or false-positive examples with discussion]_
-
 ## 🔧 Configuration Reference
 | Key | Default | Meaning |
 |---|---|---|
